@@ -57,7 +57,7 @@ git merge 分支名            合并指定分支到当前分支
 git branch -d 分支名      删除分支
 
 
-
+貌似可以直接在github上uploads 不需要terminal
 
 
 
