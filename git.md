@@ -48,15 +48,13 @@ git reset HEAD 文件名
 确实要从版本库中删除该文件，那就用命令git rm  文件名删掉，并且git commit -m “”
 git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
 
+git checkout -b 分支名
+创建一个分支 并切换到该分支 相当于git branch 分支名  （创建分支）git checkout 分支名（切换到该分支）
+git branch
+查看当前分支 在当前分支会有一个星号
 
-
-
-
-
-
-
-
-
+git merge 分支名            合并指定分支到当前分支
+git branch -d 分支名      删除分支
 
 
 
